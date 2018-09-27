@@ -28,6 +28,15 @@ public:
 
 };
 
+class Bear : public Animal
+{
+public:
+	Bear():
+	Animal("bear sounds") {}
+
+	int GetPower() { return 100; }
+};
+
 class Giraffe : public Animal {
 public:
 	Giraffe():
@@ -35,7 +44,5 @@ public:
 
 	int GetPower() { return 10; };
 };
-
-// Define your animals here
 
 #endif // _ANIMAL_H_

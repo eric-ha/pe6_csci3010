@@ -37,4 +37,12 @@ public:
 	int GetPower() { return 100; }
 };
 
+class Giraffe : public Animal {
+public:
+	Giraffe():
+	Animal("giraffe giraffe giraffe"){}
+
+	int GetPower() { return 10; };
+};
+
 #endif // _ANIMAL_H_
